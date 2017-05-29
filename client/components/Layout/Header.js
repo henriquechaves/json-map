@@ -27,7 +27,7 @@ export default class Header extends Component {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav mr-auto">
                       <li className="nav-item">
-                          <div className={`${styles.navbarTitle}`}>Junior</div>
+                          <div className={`${styles.navbarTitle}`}>TenFold Test</div>
                       </li>
                   </ul>
               </div>

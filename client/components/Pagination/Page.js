@@ -48,11 +48,11 @@ export default class Page extends Component {
     })} page-item`;
 
     return (
-            <li className={css} onClick={::this.handleClick}>
-                <a className="page-link" href="#">
-                    {pageText}
-                </a>
-            </li>
+      <li className={css} onClick={::this.handleClick}>
+        <a className="page-link" href="#">
+          {pageText}
+        </a>
+      </li >
     );
   }
 }
